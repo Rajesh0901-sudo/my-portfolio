@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+body{
+  color:#353535 !important;
+  padding-top: 50px;
+}
+
+.footer_section{
+  margin-top: 200px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

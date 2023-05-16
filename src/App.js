@@ -1,25 +1,43 @@
-import logo from './logo.svg';
 import './App.css';
+// App.js
+import { lazy, Suspense } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import { Fade } from 'react-awesome-reveal';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+// import NavBar from './Components/NavBar';
+const Home = lazy(() => import('./Pages/Home'));
+const NavBar = lazy(() => import('./Components/NavBar') )
+const About = lazy(() => import('./Pages/About'));
+const Products = lazy(() => import('./Pages/Products'));
+const ProductDetails = lazy(() => import('./Pages/ProductDetails'));
+const NoMatch = lazy(() => import('./Components/NoMatch'));
+
+
+const App = () => {
+ return (
+    <>
+       {/* <NavBar /> */}
+       <NavBar />
+       <div className='right_panel_wrapper'>
+
+         <Suspense fallback={<div className="container">Loading...</div>}>
+            <Fade triggerOnce>
+               <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/about" element={<About />} />
+                  <Route path="/products" element={<Products />} />
+                  <Route path="/products/:slug" element={<ProductDetails />} />
+                  <Route path="*" element={<NoMatch />} />
+               </Routes>
+            </Fade>      
+         </Suspense>
+       
+       </div>
+    </>
+ );
+};
 
 export default App;
+
+
