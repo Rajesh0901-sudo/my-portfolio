@@ -25,6 +25,9 @@ const App = () => {
             <HeroSection />
 
             <Box className="home_container_box dark" >
+                <img className="back_image_1" src="./images/Ellipse1.png" />
+                <img className="back_image_2" src="./images/Ellipse2.png" />
+                <img  className="back_image_3" src="./images/Ellipse3.png" />
                 <Grid className="home_container_wrapper" container spacing={1}>
                     <Grid className="home_container_div" item xs={12} md={8}>
                         <Slide damping={1.1} direction="left" triggerOnce>
@@ -45,6 +48,8 @@ const App = () => {
             </Box>
 
             <Box className="home_container_box" >
+            <img className="back_image_4" src="./images/Ellipse1.png" />
+                <img className="back_image_5" src="./images/Ellipse2.png" />
                 <Grid className="home_container_wrapper" container direction={{xs: "column-reverse",md:'row'}} spacing={1}>
                     <Grid className="home_container_div" item xs={12} md={4}>
                         <Slide cascade damping={1.1} direction="left" triggerOnce>
@@ -66,6 +71,9 @@ const App = () => {
 
 
             <Box className="home_container_box dark">
+                <img className="back_image_1" src="./images/Ellipse1.png" />
+                <img className="back_image_2" src="./images/Ellipse2.png" />
+                <img  className="back_image_3" src="./images/Ellipse3.png" />
                 <Grid className="home_container_wrapper" container spacing={1}>
                     <Grid className="home_container_div" item xs={12} md={8}>
                         <Slide  damping={1.1} direction="left" triggerOnce>
@@ -87,6 +95,8 @@ const App = () => {
 
 
             <Box className="home_container_box">
+                <img className="back_image_4" src="./images/Ellipse1.png" />
+                <img  className="back_image_5" src="./images/Ellipse2.png" />
                 <Grid className="home_container_wrapper" direction={{xs: "column-reverse",md:'row'}}  container spacing={1}>
                     <Grid className="home_container_div" item xs={12} md={4}>
                         <Slide cascade damping={1.1} direction="left" triggerOnce>
@@ -107,6 +117,9 @@ const App = () => {
             </Box>
 
             <Box className="home_container_box dark">
+                <img className="back_image_1" src="./images/Ellipse1.png" />
+                <img className="back_image_2" src="./images/Ellipse2.png" />
+                <img  className="back_image_3" src="./images/Ellipse3.png" />
                 <Grid className="home_container_wrapper" container spacing={1}>
                     <Grid className="home_container_div" item xs={12} md={8}>
                         <Slide damping={1.1} direction="left" triggerOnce>

@@ -7,6 +7,42 @@
     display:flex ;
     align-items: center;
     padding: 20px;
+    padding: 0px 100px;
+    position: relative;
+
+
+    [class*="back_image"] {
+        position: absolute;
+        opacity: 0.2;
+    }
+
+    .back_image_1{
+        top: 0px;
+        left: 0px;
+        width: 200px;
+    }
+
+    .back_image_2{
+        bottom: 0px;
+        left: 0px;
+        width: 200px;
+    }
+    .back_image_3{
+        top: 0px;
+        right: 0px;
+        width: 200px;
+    }
+    .back_image_4{
+        top: 50px;
+        right: -110px;
+        width: 400px;
+        rotate: 90deg;
+    }
+    .back_image_5{
+        bottom: 0px;
+        left: 0px;
+        width: 300px;
+    }
 
     
 }    
@@ -44,12 +80,14 @@
 
 
 @media only screen and (max-width: 600px) {
+
     .home_container_box.dark{
         img{
             margin-bottom: 0px;
         }
     }
     .home_container_box{
+        padding: 20px;
         img{
             margin-bottom: 50vh;
         }
