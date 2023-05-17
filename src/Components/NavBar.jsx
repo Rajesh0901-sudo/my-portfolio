@@ -112,9 +112,15 @@ function DrawerAppBar(props) {
             <MenuIcon />
             
           </IconButton>
-          <Box sx={{ mr: 2, display: { sm: 'none' }}} className='name_div_navbar_collapsed'>
+          <Typography
+            variant="h6"
+            component="div"
+            sx={{ mr: 2, display: { sm: 'none' } }}
+            className='name_div_navbar_collapsed'
+          >
+
             {"<Rajesh Sahu /> "}
-         </Box>  
+         </Typography>  
           <Typography
             variant="h6"
             component="div"
