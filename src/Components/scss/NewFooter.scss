@@ -115,15 +115,15 @@
       .hero-banner-one .bubble-three {
         width: 120px;
         height: 120px;
-        bottom: 33%;
-        left: 24%;
+        bottom: 3%;
+        left: 4%;
         animation: rotated 12s infinite linear;
       }
       .hero-banner-one .bubble-three:before {
         width: 16px;
         height: 16px;
         background: #ffd5ad;
-        bottom: 30%;
+        bottom: 0;
         left: 40%;
       }
       
@@ -144,22 +144,22 @@
       .hero-banner-one .bubble-five {
         width: 160px;
         height: 160px;
-        top: 10%;
-        right: 5%;
+        bottom: 0;
+        right: 25%;
         animation: rotated 17s infinite linear;
       }
       .hero-banner-one .bubble-five:before {
         width: 12px;
         height: 12px;
         background: #ffd5ad;
-        top: 50%;
-        right: 50%;
+        bottom: 40%;
+        right: 0;
       }
       .hero-banner-one .bubble-six {
-        width: 120px;
+        width: 80px;
         height: 120px;
-        bottom: 33%;
-        right: 34%;
+        bottom: 50%;
+        right: 14%;
         animation: rotated 12s infinite linear;
       }
       .hero-banner-one .bubble-six:before {

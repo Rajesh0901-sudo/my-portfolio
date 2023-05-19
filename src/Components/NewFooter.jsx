@@ -62,19 +62,19 @@ const NewFooter = () => {
             </Grid>
             <Grid item xs={12} sm={3} style={footerStyles.section}>
                 <Box className="footer_section">
-                    <h2 className='section_heading'><BusinessOutlinedIcon/>&nbsp; Corporate</h2>
-                    <h4 className='footer_contents'> <CottageOutlinedIcon/> &nbsp;Home</h4>
-                    <h4 className='footer_contents'><LocalLibraryOutlinedIcon/>&nbsp;About</h4>
-                    <h4 className='footer_contents'><ContactPageOutlinedIcon/>&nbsp;Contact</h4>
+                <h2 className='section_heading'><BusinessOutlinedIcon/>&nbsp; Corporate</h2>
+                <a target='_blank' href='#'><h4 className='footer_contents'> <CottageOutlinedIcon/> &nbsp;Home</h4></a>
+                <a target='_blank' href='#'><h4 className='footer_contents'><LocalLibraryOutlinedIcon/>&nbsp;About</h4></a>
+                <a target='_blank' href='#'><h4 className='footer_contents'><ContactPageOutlinedIcon/>&nbsp;Contact</h4></a>
                 </Box>
             
             </Grid>
             <Grid item xs={12} sm={3} style={footerStyles.section}>
                 <Box  className="footer_section">
                     <h2 className='section_heading'><MilitaryTechOutlinedIcon/> &nbsp; Freelance</h2>
-                    <h4 className='footer_contents'> <CottageOutlinedIcon/> &nbsp; Home</h4>
-                    <h4 className='footer_contents'><LocalLibraryOutlinedIcon/>&nbsp;About</h4>
-                    <h4 className='footer_contents'><ContactPageOutlinedIcon/>&nbsp;Contact</h4>
+                    <a target='_blank' href='#'><h4 className='footer_contents'> <CottageOutlinedIcon/> &nbsp; Home</h4></a>
+                    <a target='_blank' href='#'><h4 className='footer_contents'><LocalLibraryOutlinedIcon/>&nbsp;About</h4></a>
+                    <a target='_blank' href='#'><h4 className='footer_contents'><ContactPageOutlinedIcon/>&nbsp;Contact</h4></a>
                 </Box>
             </Grid>
         </Grid> 
