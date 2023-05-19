@@ -32,9 +32,9 @@ const footerStyles = {
 
 const NewFooter = () => {
   return (
-    <footer style={footerStyles.root}>
+    <footer style={footerStyles.root} className='footer_main_wrapper'> 
       <Container maxWidth="lg">
-        <Grid container spacing={3}>
+        <Grid container spacing={3}  className='footer_main_wrapper_div'>
             <Grid item xs={12} sm={3} style={footerStyles.section}>
                 <Box  className="footer_section logo_div_footer" >
                     <div className='navbar_logo_div' style={{width:'100px',height:'100px'}}>   

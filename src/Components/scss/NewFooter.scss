@@ -201,3 +201,17 @@
 .footer_section.logo_div_footer{
     justify-content: center;
 }
+
+@media only screen and (max-width: 600px)  {
+    .footer_main_wrapper{
+        .footer_main_wrapper_div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+
+        
+    }
+}
