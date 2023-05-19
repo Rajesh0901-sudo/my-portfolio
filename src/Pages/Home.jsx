@@ -1,4 +1,5 @@
 import Footer from "../Components/Footer";
+import NewFooter from "../Components/NewFooter";
 import HeroSection from "../Components/HeroSection";
 import { Slide } from "react-awesome-reveal";
 import { styled } from '@mui/material/styles';
@@ -138,8 +139,7 @@ const App = () => {
                     </Grid>
                 </Grid>
             </Box>
-
-
+            <NewFooter/>
             <Footer />
        </>
     );

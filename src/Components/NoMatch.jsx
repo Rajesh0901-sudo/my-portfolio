@@ -13,17 +13,19 @@ const containerStyles = {
 
 const NotFoundPage = () => {
   return (
-    <div style={containerStyles}>
+    <>
+      <div style={containerStyles}>
 
 
-      <img width={'300px'} src="./images/compuse/noMatch.svg"></img>     
+        <img width={'300px'} src="./images/compuse/noMatch.svg"></img>     
 
-      <Typography variant="body1" color="textSecondary">
-        The page you are looking for does not exist.
-      </Typography>
+        <Typography variant="body1" color="textSecondary">
+          The page you are looking for does not exist.
+        </Typography>
 
+      </div>
       <Footer />
-    </div>
+    </>
     
   );
 };

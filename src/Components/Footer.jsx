@@ -6,8 +6,8 @@ import { Typography, Link } from '@mui/material';
 const Footer = () => {
 
   return (
-    <footer className='footer_section'>
-      <Typography variant="body2" color="textSecondary" align="center">
+    <footer className='footer_section' style={{background:'black',height:'60px',display:'flex',alignItems:'center',justifyContent:'center'}}>
+      <Typography variant="body2" color="white" align="center">
         {'Made with ❤️ by '}
         <Link color="inherit">
           Rajesh Sahu
