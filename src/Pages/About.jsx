@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typography, Paper } from '@mui/material';
+import { Helmet } from 'react-helmet';
 
 const containerStyles = {
   padding: '16px',
@@ -8,6 +9,11 @@ const containerStyles = {
 
 const AboutUsPage = () => {
   return (
+  <>
+    <Helmet>
+      <title>About - Rajesh Sahu Portfolio</title>
+    </Helmet>
+
     <Paper elevation={3} style={containerStyles}>
       <Typography variant="h4" color="primary" gutterBottom>
         About Us
@@ -20,7 +26,8 @@ const AboutUsPage = () => {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
         auctor dolor non ex tincidunt commodo.
       </Typography>
-    </Paper>
+    </Paper>  
+  </>
   );
 };
 

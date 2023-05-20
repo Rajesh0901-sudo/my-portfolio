@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Grid, Typography, TextField, Button } from '@mui/material';
+import { Helmet } from 'react-helmet';
 
 const Contact = () => {
   const handleSubmit = (event) => {
@@ -8,6 +9,11 @@ const Contact = () => {
   };
 
   return (
+  <>
+      <Helmet>
+        <title>Contact - Rajesh Sahu Portfolio</title>
+      </Helmet>
+
     <Container maxWidth="sm">
       <Grid container spacing={3}>
         <Grid item xs={12}>
@@ -71,6 +77,7 @@ const Contact = () => {
         </Grid>
       </Grid>
     </Container>
+  </>
   );
 };
 

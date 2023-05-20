@@ -7,6 +7,8 @@ import { styled } from '@mui/material/styles';
 import {Box,Paper,Grid} from '@mui/material';
 import './scss/Home.scss';
 
+import { Helmet } from "react-helmet";
+
 
 
 
@@ -21,8 +23,11 @@ const Item = styled(Paper)(({ theme }) => ({
 
 const App = () => {
     return (
-       <>
-       
+       <>  
+            <Helmet>
+                <title>Home - Rajesh Sahu Portfolio</title>
+            </Helmet>
+            
                
             <HeroSection />
 
