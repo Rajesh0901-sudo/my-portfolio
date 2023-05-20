@@ -19,6 +19,9 @@ import RajeshLogo100 from '../assets/images/RajeshLogo300.png';
 import CottageOutlinedIcon from '@mui/icons-material/CottageOutlined';
 import LocalLibraryOutlinedIcon from '@mui/icons-material/LocalLibraryOutlined';
 import ContactPageOutlinedIcon from '@mui/icons-material/ContactPageOutlined';
+import EngineeringOutlinedIcon from '@mui/icons-material/EngineeringOutlined';
+import IntegrationInstructionsOutlinedIcon from '@mui/icons-material/IntegrationInstructionsOutlined';
+import ManageAccountsOutlinedIcon from '@mui/icons-material/ManageAccountsOutlined';
 
 const drawerWidth = 240;
 const navItems = ['Home', 'About', 'Contact'];
@@ -80,7 +83,58 @@ function DrawerAppBar(props) {
                   <NavLink
                      className="navbar-item"
                      // activeClassName="is-active"
-                     to="/products"
+                     to="/experience"
+                     
+                  >
+                      <div className='link_div'>
+                        <EngineeringOutlinedIcon /> Experience
+                     </div>
+                     
+                  </NavLink>
+               </ListItemText>
+            </ListItemButton>
+         </ListItem>
+         <ListItem disablePadding>
+            <ListItemButton sx={{ textAlign: 'center' }}>
+               <ListItemText >
+                  <NavLink
+                     className="navbar-item"
+                     // activeClassName="is-active"
+                     to="/skills"
+                     
+                  >
+                      <div className='link_div'>
+                        <ManageAccountsOutlinedIcon /> Skills
+                     </div>
+                     
+                  </NavLink>
+               </ListItemText>
+            </ListItemButton>
+         </ListItem>
+         <ListItem disablePadding>
+            <ListItemButton sx={{ textAlign: 'center' }}>
+               <ListItemText >
+                  <NavLink
+                     className="navbar-item"
+                     // activeClassName="is-active"
+                     to="/projects"
+                     
+                  >
+                      <div className='link_div'>
+                        <IntegrationInstructionsOutlinedIcon /> Projects
+                     </div>
+                     
+                  </NavLink>
+               </ListItemText>
+            </ListItemButton>
+         </ListItem>
+         <ListItem disablePadding>
+            <ListItemButton sx={{ textAlign: 'center' }}>
+               <ListItemText >
+                  <NavLink
+                     className="navbar-item"
+                     // activeClassName="is-active"
+                     to="/contact"
                      
                   >
                     <div className='link_div'>
@@ -163,7 +217,43 @@ function DrawerAppBar(props) {
                   <NavLink
                      className="navbar-item"
                      // activeClassName="is-active"
-                     to="/products"
+                     to="/experience"
+                     
+                  >
+                     <div className='link_div'>
+                        <EngineeringOutlinedIcon /> Experience
+                     </div>  
+                  </NavLink>
+              </Button>
+              <Button sx={{ color: '#fff' }}>
+                  <NavLink
+                     className="navbar-item"
+                     // activeClassName="is-active"
+                     to="/skills"
+                     
+                  >
+                     <div className='link_div'>
+                        <ManageAccountsOutlinedIcon /> Skills
+                     </div>  
+                  </NavLink>
+              </Button>
+              <Button sx={{ color: '#fff' }}>
+                  <NavLink
+                     className="navbar-item"
+                     // activeClassName="is-active"
+                     to="/projects"
+                     
+                  >
+                     <div className='link_div'>
+                        <IntegrationInstructionsOutlinedIcon /> Projects
+                     </div>  
+                  </NavLink>
+              </Button>
+              <Button sx={{ color: '#fff' }}>
+                  <NavLink
+                     className="navbar-item"
+                     // activeClassName="is-active"
+                     to="/contact"
                      
                   >
                      <div className='link_div'>

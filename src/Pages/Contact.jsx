@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Grid, Typography, TextField, Button } from '@mui/material';
 
-const ContactUsPage = () => {
+const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Handle form submission logic here
@@ -74,4 +74,4 @@ const ContactUsPage = () => {
   );
 };
 
-export default ContactUsPage;
+export default Contact;

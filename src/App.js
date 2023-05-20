@@ -9,10 +9,12 @@ import { Fade } from 'react-awesome-reveal';
 const Home = lazy(() => import('./Pages/Home'));
 const NavBar = lazy(() => import('./Components/NavBar') )
 const About = lazy(() => import('./Pages/About'));
-const Products = lazy(() => import('./Pages/Products'));
-const ProductDetails = lazy(() => import('./Pages/ProductDetails'));
-const NoMatch = lazy(() => import('./Components/NoMatch'));
+const Contact = lazy(() => import('./Pages/Contact'));
+const Experience = lazy(() => import('./Pages/Experience'));
+const Skills = lazy(() => import('./Pages/Skills'));
+const Projects = lazy(() => import('./Pages/Projects'));
 
+const NoMatch = lazy(() => import('./Components/NoMatch'));
 
 const App = () => {
  return (
@@ -26,8 +28,11 @@ const App = () => {
                <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/about" element={<About />} />
-                  <Route path="/products" element={<Products />} />
-                  <Route path="/products/:slug" element={<ProductDetails />} />
+                  <Route path="/contact" element={<Contact />} />
+                  <Route path="/experience" element={<Experience />} />
+                  <Route path="/skills" element={<Skills />} />
+                  <Route path="/projects" element={<Projects />} />
+
                   <Route path="*" element={<NoMatch />} />
                </Routes>
             </Fade>      

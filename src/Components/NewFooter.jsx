@@ -9,6 +9,9 @@ import ContactPageOutlinedIcon from '@mui/icons-material/ContactPageOutlined';
 import BookmarkOutlinedIcon from '@mui/icons-material/BookmarkOutlined';
 import BusinessOutlinedIcon from '@mui/icons-material/BusinessOutlined';
 import MilitaryTechOutlinedIcon from '@mui/icons-material/MilitaryTechOutlined';
+import EngineeringOutlinedIcon from '@mui/icons-material/EngineeringOutlined';
+import IntegrationInstructionsOutlinedIcon from '@mui/icons-material/IntegrationInstructionsOutlined';
+import ManageAccountsOutlinedIcon from '@mui/icons-material/ManageAccountsOutlined';
 
 
 
@@ -72,9 +75,9 @@ const NewFooter = () => {
             <Grid item xs={12} sm={3} style={footerStyles.section}>
                 <Box  className="footer_section">
                     <h2 className='section_heading'><MilitaryTechOutlinedIcon/> &nbsp; Freelance</h2>
-                    <a target='_blank' href='#'><h4 className='footer_contents'> <CottageOutlinedIcon/> &nbsp; Home</h4></a>
-                    <a target='_blank' href='#'><h4 className='footer_contents'><LocalLibraryOutlinedIcon/>&nbsp;About</h4></a>
-                    <a target='_blank' href='#'><h4 className='footer_contents'><ContactPageOutlinedIcon/>&nbsp;Contact</h4></a>
+                    <a target='_blank' href='#'><h4 className='footer_contents'><EngineeringOutlinedIcon /> &nbsp; Experience </h4></a>
+                    <a target='_blank' href='#'><h4 className='footer_contents'><ManageAccountsOutlinedIcon />&nbsp; Skills</h4></a>
+                    <a target='_blank' href='#'><h4 className='footer_contents'> <IntegrationInstructionsOutlinedIcon />&nbsp; Projects</h4></a>
                 </Box>
             </Grid>
         </Grid> 
