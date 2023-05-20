@@ -1,6 +1,7 @@
 import Footer from "../Components/Footer";
 import NewFooter from "../Components/NewFooter";
 import HeroSection from "../Components/HeroSection";
+import Value from "../Components/Value";
 import { Slide } from "react-awesome-reveal";
 import { styled } from '@mui/material/styles';
 import {Box,Paper,Grid} from '@mui/material';
@@ -24,6 +25,8 @@ const App = () => {
        
                
             <HeroSection />
+
+            <Value/>
 
             <Box className="home_container_box dark" >
                 <img className="back_image_1" src="./images/Ellipse1.png" />

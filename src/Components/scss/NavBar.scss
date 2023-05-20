@@ -74,7 +74,9 @@
 
   .navbar-item.active{
     background-color: #ffffff;
-    color: #284B63;
+    color: black;
+    padding: 2px 5px;
+    box-shadow: 1px 0px 4px 1px #353535 inset;
   }
 
 
@@ -107,7 +109,8 @@
     }
 
     &:hover{
-      color: #284B63;
+      color: black;
+      box-shadow: 1px 0px 7px 1px #353535 inset;
       background: white;
       transition: 0.2s ease-in-out;
     }
@@ -117,7 +120,8 @@
 
   .navbar-item.active{
     background-color: #ffffff;
-    color: #284B63;
+    color: black;
+    box-shadow: 1px 0px 7px 1px #353535 inset;
   }
 
 }
