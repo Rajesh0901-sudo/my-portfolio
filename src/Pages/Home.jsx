@@ -1,13 +1,15 @@
+import React from "react";
 import Footer from "../Components/Footer";
 import NewFooter from "../Components/NewFooter";
 import HeroSection from "../Components/HeroSection";
 import Value from "../Components/Value";
-import { Slide } from "react-awesome-reveal";
+import { Slide,Fade } from "react-awesome-reveal";
 import { styled } from '@mui/material/styles';
 import {Box,Paper,Grid} from '@mui/material';
 import './scss/Home.scss';
 
 import { Helmet } from "react-helmet";
+
 
 
 
@@ -22,6 +24,18 @@ const Item = styled(Paper)(({ theme }) => ({
 
 
 const App = () => {
+
+    const [valueEnteredTheView, setChecked] = React.useState(false);
+
+
+    const valueEnteredTheViewFunction=()=>{
+        console.log('hello');
+        
+        setChecked((valueEnteredTheView) => !valueEnteredTheView);
+
+    }
+
+
     return (
        <>  
             <Helmet>
@@ -31,7 +45,10 @@ const App = () => {
                
             <HeroSection />
 
-            <Value/>
+            <Fade >
+                <Value entered={true}/>
+            </Fade>
+            
 
             <Box className="home_container_box dark" >
                 <img className="back_image_1" src="./images/Ellipse1.png" />
@@ -48,7 +65,7 @@ const App = () => {
                             </span>
                         </Slide>
                     </Grid>
-                    <Grid className="home_container_div" item xs={12} md={4}>
+                    <Grid className="home_container_div " item xs={12} md={4}>
                         <Slide damping={1.1} direction="right" triggerOnce>
                             <img src="./images/compuse/solution.svg"></img>quality.svg
                        </Slide>
@@ -56,7 +73,7 @@ const App = () => {
                 </Grid>
             </Box>
 
-            <Box className="home_container_box" >
+            <Box className="home_container_box light" >
             <img className="back_image_4" src="./images/Ellipse1.png" />
                 <img className="back_image_5" src="./images/Ellipse2.png" />
                 <Grid className="home_container_wrapper" container direction={{xs: "column-reverse",md:'row'}} spacing={1}>
@@ -103,7 +120,7 @@ const App = () => {
             </Box>
 
 
-            <Box className="home_container_box">
+            <Box className="home_container_box light">
                 <img className="back_image_4" src="./images/Ellipse1.png" />
                 <img  className="back_image_5" src="./images/Ellipse2.png" />
                 <Grid className="home_container_wrapper" direction={{xs: "column-reverse",md:'row'}}  container spacing={1}>
@@ -147,8 +164,16 @@ const App = () => {
                     </Grid>
                 </Grid>
             </Box>
-            <NewFooter/>
+
+            <Box className="home_container_box light">
+               
+            </Box>
+
+           
+            <NewFooter footerEntered={true} />
+          
             <Footer />
+
        </>
     );
 };

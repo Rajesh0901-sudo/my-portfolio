@@ -3,6 +3,8 @@ import { Box, Container, Grid, Typography } from '@mui/material';
 import RajeshLogo100 from '../assets/images/RajeshLogo300.png';
 import './scss/NewFooter.scss';
 
+import Grow from '@mui/material/Grow';
+
 import CottageOutlinedIcon from '@mui/icons-material/CottageOutlined';
 import LocalLibraryOutlinedIcon from '@mui/icons-material/LocalLibraryOutlined';
 import ContactPageOutlinedIcon from '@mui/icons-material/ContactPageOutlined';
@@ -33,11 +35,15 @@ const footerStyles = {
   },
 };
 
-const NewFooter = () => {
+const NewFooter = ({footerEntered}) => {
+
+  console.log(footerEntered);
+
   return (
     <footer style={footerStyles.root} className='footer_main_wrapper'> 
       <Container maxWidth="lg">
         <Grid container spacing={3}  className='footer_main_wrapper_div'>
+          <Grow in={footerEntered} {...(footerEntered ? { timeout: 1000 } : {})}>
             <Grid item xs={12} sm={3} style={footerStyles.section}>
                 <Box  className="footer_section logo_div_footer" >
                     <div className='navbar_logo_div' style={{width:'100px',height:'100px'}}>   
@@ -55,6 +61,9 @@ const NewFooter = () => {
                     </div>
                 </Box>
             </Grid>
+          </Grow>
+
+          <Grow in={footerEntered} {...(footerEntered ? { timeout: 2000 } : {})}>
             <Grid item xs={12} sm={3} style={footerStyles.section}>
                 <Box  className="footer_section">
                     <h2 className='section_heading'> <BookmarkOutlinedIcon/>&nbsp; Follow me</h2>
@@ -63,6 +72,9 @@ const NewFooter = () => {
                     <a target='_blank' href='mailto:rajesh@techgeekdeveloper.com'><h4  className='footer_contents'><img src='./images/compuse/icons8-gmail-250.png'/> &nbsp;Email</h4></a>
                 </Box>
             </Grid>
+          </Grow>
+
+          <Grow in={footerEntered} {...(footerEntered ? { timeout: 2000 } : {})}>
             <Grid item xs={12} sm={3} style={footerStyles.section}>
                 <Box className="footer_section">
                 <h2 className='section_heading'><BusinessOutlinedIcon/>&nbsp; Corporate</h2>
@@ -72,6 +84,9 @@ const NewFooter = () => {
                 </Box>
             
             </Grid>
+          </Grow>
+
+          <Grow in={footerEntered} {...(footerEntered ? { timeout: 3000 } : {})}>
             <Grid item xs={12} sm={3} style={footerStyles.section}>
                 <Box  className="footer_section">
                     <h2 className='section_heading'><MilitaryTechOutlinedIcon/> &nbsp; Freelance</h2>
@@ -80,6 +95,7 @@ const NewFooter = () => {
                     <a target='_blank' href='#'><h4 className='footer_contents'> <IntegrationInstructionsOutlinedIcon />&nbsp; Projects</h4></a>
                 </Box>
             </Grid>
+          </Grow>
         </Grid> 
 
       </Container>

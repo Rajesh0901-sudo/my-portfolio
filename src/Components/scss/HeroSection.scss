@@ -3,7 +3,7 @@
     padding: 35px 0 !important;
     position: relative;
     margin-bottom: 180px;
-
+    background-image: linear-gradient(to bottom, #ffffff, #fcfbff, #f8f8ff, #f3f4ff, #eef1ff, #eef1ff, #eef1ff, #eef1ff, #f3f4ff, #f8f8ff, #fcfbff, #ffffff);
     .hero_image,h2,p{
         position: relative;
        z-index: 2 !important;
@@ -11,7 +11,8 @@
     }
 
     .hero_header_diff{
-        color: #3C6E71;
+      background-image: linear-gradient(to right top, #353535, #3c3e43, #404850, #40525d, #3e5e68, #3b616b, #37636d, #33666f, #2e5f6d, #2a596a, #285267, #284b63);                -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
 
     @media only screen and (min-width: 600px) {
@@ -120,7 +121,6 @@
 
   .hero-banner-one [class*="icon-box"] {
     position: absolute;
-    background: #fff;
     border-radius: 50%;
   }
   .hero-banner-one [class*="icon-box"] img {

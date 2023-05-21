@@ -1,0 +1,274 @@
+.about_section_wrapper{
+
+    min-height: 100vh;
+    margin-top: 0px !important;
+
+    .about_section{
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        .about_content_wrapper{
+            h1{
+                text-align: center;
+                margin: 0;
+                
+            }
+            .my_name{
+                font-size: 60px;
+                background-image: linear-gradient(to right top, #353535, #3c3e43, #404850, #40525d, #3e5e68, #3b616b, #37636d, #33666f, #2e5f6d, #2a596a, #285267, #284b63);                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            
+        }
+
+    }
+
+}
+
+.about_div{
+    text-align: justify;
+    display: block;
+    font-size: 1em;
+}
+
+.about_section_logo_div{
+
+    display: flex;
+    align-items: center;
+    
+    img{
+        width: 20px;
+    }
+}
+
+.second_section_about{
+    .second_section_heading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .second_about_content_wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        border-radius: 5px;
+        padding: 15px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        min-height: 370px;
+
+        img{
+            width: 100px;
+        }
+
+        p{
+            display: block;
+            text-align: justify;
+        }
+    }
+}
+
+.education_section_about{
+
+    position: relative;
+    margin: 150px 0px !important;
+
+    .education_section_heading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img{
+
+        width: 140px;
+
+    }
+
+    .education_institute_name{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .name_institute_span{
+            text-align: center;
+        }
+
+    }
+
+
+
+}
+
+
+
+.my_image_about_section {
+    position: relative;
+    background: white;
+    border-radius: 50%;
+    height: 200px;
+    padding: 10px;
+    z-index: 2;
+    width: 200px;
+    background-image: linear-gradient(to right top, #e9ecef, #e2e6ea, #dbe0e4, #d5dadf, #ced4da);
+    object-position: 10px -5px;
+    object-fit: cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+
+.about_content_wrapper.my_imgae_div{
+
+    position: relative;
+    height: fit-content;
+
+
+
+    .hero-banner-one [class*="bubble"] {
+        position: absolute;
+        border-radius: 50%;
+        z-index: 1 !important;
+    }
+    .hero-banner-one [class*="bubble"]:before {
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    }
+
+    .hero-banner-one{
+
+        .bubble-one {
+            width: 120px;
+            height: 120px;
+            left: 50%;
+            top: 50%;
+            animation: rotated 10s infinite linear;
+
+            &:before{
+
+                width: 13px;
+                height: 13px;
+                background: #fac3ff;
+                top: 100%;
+                left: 100%;
+                    
+            }
+        }
+
+    } 
+    .hero-banner-one .bubble-six {
+        width: 120px;
+        height: 120px;
+        bottom: 50%;
+        right: 50%;
+        animation: rotated 10s infinite linear;
+    }
+    .hero-banner-one .bubble-six:before {
+        width: 15px;
+        height: 15px;
+        background: #fac3ff;
+        bottom: 100%;
+        right: 100%;
+    }
+
+    .hero-banner-one .bubble-two {
+        width: 120px;
+        height: 120px;
+        top: 50%;
+        left: 50%;
+        animation: rotated 10s infinite linear;
+    }
+    .hero-banner-one .bubble-two:before {
+        width: 14px;
+        height: 14px;
+        background: #8fe9e0;
+        top: 100%;
+        right: 100%;
+    }
+
+    .hero-banner-one .bubble-four {
+        width: 120px;
+        height: 120px;
+        right: 50%;
+        bottom: 50%;
+        animation: rotated 10s infinite linear;
+    }
+    .hero-banner-one .bubble-four:before {
+        width: 12px;
+        height: 12px;
+        background: #8fe9e1;
+        right: 120%;
+        bottom: 120%;
+    }
+
+
+    .hero-banner-one .bubble-three {
+    width: 120px;
+    height: 120px;
+    bottom: 50%;
+    left: 50%;
+    animation: rotated 10s infinite linear;
+    }
+    .hero-banner-one .bubble-three:before {
+    width: 14px;
+    height: 14px;
+    background: #ffd5ad;
+    bottom: 100%;
+    left: 100%;
+    }
+    
+    .hero-banner-one .bubble-four {
+    width: 120px;
+    height: 120px;
+    right: 0%;
+    top: 0%;
+    animation: rotated 10s infinite linear;
+    }
+    .hero-banner-one .bubble-four:before {
+    width: 13px;
+    height: 13px;
+    background: #8fe9e1;
+    top: 50%;
+    left: 100%;
+    }
+    .hero-banner-one .bubble-five {
+    width: 180px;
+    height: 160px;
+    bottom: 0%;
+    right: 0%;
+    animation: rotated 10s infinite linear;
+    }
+    .hero-banner-one .bubble-five:before {
+    width: 12px;
+    height: 12px;
+    background: #ffd5ad;
+    bottom: 100%;
+    right: 100%;
+    }
+  
+            
+    @-webkit-keyframes rotated {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    }
+    @keyframes rotated {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    }
+}
