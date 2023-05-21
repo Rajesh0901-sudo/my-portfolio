@@ -53,7 +53,7 @@ const AboutUsPage = () => {
     <Container maxWidth="lg">
         <Grid container spacing={3} className="about_section_wrapper">
 
-            <Grid sx={{ display: { xs: 'none', sm: 'flex' } }}  item  sm={1} className="about_section_logo_div"	 >
+            <Grid sx={{ display: { xs: 'none', sm: 'flex' } }}  item xs={0} sm={1} className="about_section_logo_div"	 >
               <Box  className="about_section_social_logo">
                   <a target='_blank' href='https://github.com/Rajesh0901-sudo/'><h4  className='footer_contents'><img src='./images/compuse/iconmonstr_github_1.svg'/></h4></a>
                   <a target='_blank' href='https://www.linkedin.com/in/rajesh-s-sahu/'><h4  className='footer_contents'><img src='./images/compuse/iconmonstr-linkedin-3.svg'/></h4></a>
@@ -136,7 +136,7 @@ const AboutUsPage = () => {
 
         <br/>
 
-        <Grid container spacing={3}  className="education_section_about">
+        <Grid container item className="education_section_about">
 
             <Grid item xs={12} sm={3}   className="education_section_heading">
          
