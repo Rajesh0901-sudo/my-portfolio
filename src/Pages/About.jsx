@@ -8,15 +8,9 @@ import { Box, Container, Grid, Typography } from '@mui/material';
 import Footer from "../Components/Footer";
 import NewFooter from "../Components/NewFooter";
 
-
-
-
 import './scss/About.scss'
 
-const containerStyles = {
-  padding: '16px',
-  margin: '8px',
-};
+
 
 const AboutUsPage = () => {
 
@@ -92,7 +86,7 @@ const AboutUsPage = () => {
               <Grid item xs={12} sx={{marginTop:{xs:'50px',sm:'0'}}} >
                  <span className="about_div">{data.about[0]}</span>
                  <br></br><br></br>
-                 <span className="about_div">{data.about[0]}</span>
+                 <span className="about_div">{data.about[1]}</span>
               </Grid>
 
             </Grid>
@@ -168,9 +162,9 @@ const AboutUsPage = () => {
 
       </Container>
 
-      <NewFooter footerEntered={true} />
+    <NewFooter footerEntered={true} />
           
-          <Footer />
+    <Footer />
   </>
   );
 };

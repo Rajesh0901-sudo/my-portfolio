@@ -28,7 +28,7 @@ const data = {
       company: "AppEQ Inc.",
       location: "Bangalore, India",
       position: "Software Engineering Intern",
-      duration: "December 2022 - Current",
+      duration: "Dec 2022 - June 2023",
       responsibilities: [
         "Building a scalable application for one-click insight into different accounts",
         "Working on an in-production product with highly skilled and experienced colleagues",

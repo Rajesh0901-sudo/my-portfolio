@@ -1,0 +1,65 @@
+.exp_section_wrapper{
+
+    .exp_section_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+        .exp_logo{
+            width: 300px;
+        }
+
+        h1{
+            text-align: center;
+        }      
+    }
+
+    .exp_section_heading_wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .exp_section_heading{
+            width: 250px;
+            display: flex;
+            justify-content: center;
+            justify-self: center;
+            align-items: center;
+            margin-top: 100px;
+            border: 1px solid ;
+            padding: 0px 10px;
+            border-radius: 5px;
+        }
+
+    }
+    
+
+
+    .exp_section_div2{
+        margin-top: 100px;
+        .exp_logo_company{
+            width: 90px;
+        }
+
+        h2{
+            margin: 0;
+        }
+
+        .skills_div{
+            margin-top: 20px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .exp_section_wrapper{
+
+        span{
+            display: block;
+            text-align: justify;
+        }
+    }
+}
