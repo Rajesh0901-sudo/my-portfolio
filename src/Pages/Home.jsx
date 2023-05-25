@@ -59,9 +59,9 @@ const App = () => {
                         <Slide damping={1.1} direction="left" triggerOnce>
                             <h1>Building solutions that solve real problems.</h1>
                             <span>
-                                I am passionate about using technology to solve real problems. 
-                                I have a proven track record of identifying and solving problems for my clients and employers. 
-                                I am always looking for new ways to use technology to make people's lives easier and more efficient.
+                                Technology has always been my passion, especially when it comes to addressing pressing issues.
+                                Throughout my career, I have successfully identified issues and found solutions for employers and clients alike.
+                                In order to make people's lives better through technology, I am always looking for new, effective ways to do so.
                             </span>
                         </Slide>
                     </Grid>
@@ -86,9 +86,9 @@ const App = () => {
                         <Slide damping={1.1} direction="right"triggerOnce >
                             <h1>Creating innovative and user-friendly experiences</h1>
                              <span>
-                                I am always looking for new ways to create innovative and user-friendly experiences. 
-                                I believe that technology should be used to make people's lives easier, not more complicated. 
-                                I am always thinking about how I can make my work more intuitive and user-friendly.
+                                Developing unique and user-friendly experiences is my constant goal.
+                                Technology should be used to ease people's lives rather than make them more complicated.
+                                I am constantly looking for ways to make my work more intuitive and user-friendly.
                             </span>
                        </Slide>
                     </Grid>
@@ -105,9 +105,9 @@ const App = () => {
                         <Slide  damping={1.1} direction="left" triggerOnce>
                             <h1>Delivering high-quality work on time and within budget</h1>
                            <span>
-                                I am committed to delivering high-quality work on time and within budget. 
-                                I have a proven track record of meeting deadlines and staying within budget. 
-                                I am also always willing to go the extra mile to make sure that my clients and employers are satisfied with my work.
+                                On time and on budget, I deliver high-quality work.. 
+                                Historically, I have stayed within budget while achieving deadlines. 
+                                Additionally, I am always eager to go the extra mile for my clients and employers.
                             </span> 
                         </Slide>
                     </Grid>
@@ -133,9 +133,8 @@ const App = () => {
                         <Slide damping={1.1} direction="right"triggerOnce >
                             <h1>Collaborating effectively with team members to achieve common goals</h1>
                             <span>
-                                I am a team player and I am always willing to collaborate with others to achieve common goals. 
-                                I am good at listening to others and I am always willing to share my ideas. 
-                                I am also good at resolving conflicts and I am always willing to compromise.
+                                The ability to work well with others and reach common goals is one of my strongest traits.
+                                Listening to people and providing my thoughts are skills I possess and am always eager to utilize.
                             </span>
                        </Slide>
                     </Grid>
@@ -151,9 +150,9 @@ const App = () => {
                         <Slide damping={1.1} direction="left" triggerOnce>
                             <h1>Passionate about technology and its potential to improve people's lives</h1>
                            <span>
-                                 I am passionate about technology and its potential to improve people's lives. 
-                                 I believe that technology can be used to make the world a better place. 
-                                 I am always looking for new ways to use technology to help people. 
+                                In the realm of technology, my passion lies in its potential to improve people's lives and make the 
+                                world a better place. I firmly believe that technology, when harnessed effectively, 
+                                has the power to create a positive impact. Continuously seeking innovative ways to utilize technology for the betterment of humanity is a driving force in my endeavors.
                             </span> 
                         </Slide>
                     </Grid>

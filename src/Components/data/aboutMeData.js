@@ -144,7 +144,7 @@ const data = {
       ]
     },
     {
-      company: "Individal (Planora)",
+      company: "Individual (Planora)",
       location: "Remote, India",
       position: "Full Stack Web Developer",
       duration: "06 - Months",
