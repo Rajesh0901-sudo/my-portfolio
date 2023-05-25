@@ -50,6 +50,10 @@ const data = {
         "Communication",
         "Presentation skills",
       ],
+      impact:[
+        "Fixed 69 bugs, completed 49 new tasks and 18 new stories reported in Jira",
+        "Changed UI and UX, Visual Design, Layout and Organization, Interaction Design, User Journey and Flow."
+      ]
     },
     {
       company: "ATPLC Technology",
@@ -77,6 +81,95 @@ const data = {
         "Communication",
         "Presentation skills",
       ],
+      impact:[
+        "Used my previous full stack web programming knowledge to successfully accomplish the job.",
+        "Project was completed ahead of schedule and with satisfactory outcomes.."
+      ]
+    },
+  ],
+  freelance_work_experience:[
+    {
+      company: "Fliqcard",
+      location: "Oman, Middle East",
+      position: "Full Stack Web Developer",
+      duration: "06 - Months",
+      responsibilities: [
+        "As a full-stack developer. Setting up and configuring the EC2 instance, transferring website files, databases, and dependencies, and handling technical issues were all responsibilities.",
+        "On the new hosting platform, the emphasis was on retaining website functionality, security, and performance. Full stack developer expertise was critical in ensuring a successful migration.",
+        "Aside from that, I was leading other developers in the development of various parts of the website and assisting a flutter developer as a backend developer."
+      ],
+      technical_skills: [
+        "AWS",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Git",
+        "Bitbucket",
+        "PHP",
+        "Firebase"
+      ],
+      soft_skills: [
+        "Team Handling",
+        "Time Management",
+        "Communication",
+      ],
+      impact:[
+        "Migrating from shared hosting to AWS EC2 saved the client 60% on infrastructure costs.",
+        "Using AWS SES, increased email functionality. Reduced website and application downtime."
+      ]
+    },
+    {
+      company: "Upwork (Client)",
+      location: "Remote, India",
+      position: "Front-End Developer",
+      duration: "02 - Weeks",
+      responsibilities: [
+        "Created a single page for demurrage and shipment claims. Along with the calculation, I also built the user interface like Excel. Calculation performed like Excel, then report and invoice in PDF. All data was managed at the UI level without api integration. The invoice and report are both created using the same template. Logic for time counting based on date/time, auto sorting in rows as in excel, and auto splitting rows based on date/time (inserted in between any row). Highlighted Saturday/Sunday weekend in a row. 20 hours total allotted"
+      ],
+      technical_skills: [
+        "React",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Git",
+        "Git-lab",
+      ],
+      soft_skills: [
+        "Time Management",
+        "Presentation skills",
+        "Communication Skills",
+      ],
+      impact:[
+        "With good results, successfully overcame ui hurdles such as auto sorting of objects based on different conditions and auto split functionalities."
+      ]
+    },
+    {
+      company: "Individal (Planora)",
+      location: "Remote, India",
+      position: "Full Stack Web Developer",
+      duration: "06 - Months",
+      responsibilities: [
+        "Designed, developed and deployed a website with Email Authentication using OTP and User Authentication using Email id with OTP-based password recovery mechanism. User Login and Registration Admin Panel with default product insertion and user removal functionality."
+      ],
+      technical_skills: [
+        "Jquery",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Git",
+        "Github",
+        "PHP",
+        "Shared Hosting"
+      ],
+      soft_skills: [
+        "Time Management",
+        "Presentation skills",
+        "Communication Skills",
+      ],
+      impact:[
+        "Reduced the cost by 90% and written 4000+ lines of codes. Released 2 versions of the website and deployed on LAMP Server",
+
+      ]
     },
   ],
   projects: [

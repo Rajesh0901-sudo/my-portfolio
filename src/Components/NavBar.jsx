@@ -94,7 +94,7 @@ function DrawerAppBar(props) {
                </ListItemText>
             </ListItemButton>
          </ListItem>
-         <ListItem disablePadding>
+         {/* <ListItem disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
                <ListItemText >
                   <NavLink
@@ -110,7 +110,7 @@ function DrawerAppBar(props) {
                   </NavLink>
                </ListItemText>
             </ListItemButton>
-         </ListItem>
+         </ListItem> */}
          <ListItem disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
                <ListItemText >
@@ -225,7 +225,7 @@ function DrawerAppBar(props) {
                      </div>  
                   </NavLink>
               </Button>
-              <Button sx={{ color: '#fff' }}>
+              {/* <Button sx={{ color: '#fff' }}>
                   <NavLink
                      className="navbar-item"
                      // activeClassName="is-active"
@@ -236,7 +236,7 @@ function DrawerAppBar(props) {
                         <ManageAccountsOutlinedIcon /> Skills
                      </div>  
                   </NavLink>
-              </Button>
+              </Button> */}
               <Button sx={{ color: '#fff' }}>
                   <NavLink
                      className="navbar-item"
