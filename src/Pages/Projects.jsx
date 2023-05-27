@@ -12,6 +12,7 @@ import MilitaryTechOutlinedIcon from '@mui/icons-material/MilitaryTechOutlined';
 import LinkOutlinedIcon from '@mui/icons-material/LinkOutlined';
 import DocumentScannerOutlinedIcon from '@mui/icons-material/DocumentScannerOutlined';
 import MicrowaveOutlinedIcon from '@mui/icons-material/MicrowaveOutlined';
+import AccountBalanceOutlinedIcon from '@mui/icons-material/AccountBalanceOutlined';
 
 
 import data from '../Components/data/aboutMeData';
@@ -22,7 +23,7 @@ const Projects = () => {
   return (
   <>
     <Helmet>
-      <title>Experience - Rajesh Sahu Portfolio</title>
+      <title>Projects - Rajesh Sahu Portfolio</title>
     </Helmet>
 
     
@@ -234,7 +235,7 @@ const Projects = () => {
 
           <div className='exp_section_heading_wrapper'>
             <h1 className='project_section_heading' >
-              <MilitaryTechOutlinedIcon/>
+              <AccountBalanceOutlinedIcon/>
               &nbsp; C++ (OOPS - CLI)
             </h1> 
           </div> 

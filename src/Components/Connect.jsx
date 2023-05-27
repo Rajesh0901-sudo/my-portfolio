@@ -21,9 +21,6 @@ const Connect = () => {
 
   return (
   <>
-      <Helmet>
-        <title>Contact - Rajesh Sahu Portfolio</title>
-      </Helmet>
 
     {!isSubmitted ? (
           <Container maxWidth="lg" className='contact_wrapper'>
