@@ -45,6 +45,7 @@
 .second_section_about{
     .second_section_heading{
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
@@ -59,6 +60,12 @@
         padding: 15px;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
         min-height: 370px;
+
+        &:hover{
+
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            transition: 0.2s ease-in-out;
+        }
 
         img{
             width: 100px;

@@ -44,3 +44,18 @@ body{
     transform: rotate(360deg);
   }
 }
+
+.loading_div_for_router{
+  width: 300px;
+  position: absolute;
+  top: 40vh;
+  left: calc(50vw - 150px); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading_div_for_router > svg{
+  width: 100px;
+}

@@ -3,7 +3,7 @@ import './App.css';
 import { lazy, Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Fade } from 'react-awesome-reveal';
-
+import Loader from './Components/Loader';
 
 // import NavBar from './Components/NavBar';
 const Home = lazy(() => import('./Pages/Home'));
@@ -16,6 +16,7 @@ const Projects = lazy(() => import('./Pages/Projects'));
 
 const NoMatch = lazy(() => import('./Components/NoMatch'));
 
+
 const App = () => {
  return (
     <>
@@ -23,7 +24,14 @@ const App = () => {
        <NavBar />
        <div className='right_panel_wrapper'>
 
-         <Suspense fallback={<div className="container">Loading...</div>}>
+         <Suspense fallback={
+               <div className='loading_div_for_router'>
+                  <Loader color="#284B63" />
+                  <div style={{textAlign:'center'}}>Just a moment, we're putting the finishing touches on our masterpiece.</div>
+               </div>
+             }
+
+         >
             <Fade triggerOnce>
                <Routes>
                   <Route path="/" element={<Home />} />

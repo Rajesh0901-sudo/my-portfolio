@@ -174,13 +174,27 @@ const data = {
   ],
   projects: [
     {
+      name: "Real Estate Land Transaction System Using Blockchain Technology",
+      location: "Raipur, Chhattisgarh",
+      duration: "July 2022 - Dec 2022",
+      description:"The aim of the project is to deploy a decentralized web application (Dapp) that uses blockchain technology to solve real estate land transaction problems and allows buyers and sellers to interact with the private Ethereum network and deployed smart contracts in Real Estate Business.",
+      impact:["In the real estate business, most of the processes such as buying, selling, and renting are carried out by real estate agents where trust is the most important factor. This trust factor raises problems that affect the speed, cost, and security of the real estate transaction process and makes it difficult to execute the transactions efficiently and in a reliable manner.",],      
+      technical_skills: [
+        "React", "Solidity", "Truffle", "Ganache", "Web 3", "Metamask"
+      ],
+      soft_skills: ["Presentation skills", "Logical Thinking"],
+
+      github_link:"https://github.com/Rajesh0901-sudo/Real-Estate-Land-Transaction-System-Using-Blockchain-Technology"
+    },
+
+    {
       name: "Full Stack Web Development Project: Planora - Planogram Maker",
       location: "Raipur, Chhattisgarh",
       duration: "Jan 2022 - June 2022",
       description:
         "Designed, developed and deployed a website with Email Authentication using OTP and User Authentication using Email id with OTP-based password recovery mechanism. User Login and Registration Admin Panel with default product insertion and user removal functionality",
       impact:
-        "Reduced the cost by 90% and written 4000+ lines of codes. Released 2 versions of the website and deployed on LAMP Server",
+        ["Reduced the cost by 90% and written 4000+ lines of codes. Released 2 versions of the website and deployed on LAMP Server",],
       technical_skills: [
         "HTML",
         "CSS",
@@ -195,7 +209,10 @@ const data = {
         "Presentation skills",
         "Communication Skills",
       ],
+      github_link:"https://github.com/Rajesh0901-sudo/Full-stack-web-development-Planora-Planogram_Maker"
+
     },
+
     {
       name: "Amazon Employee Access Prediction Model - Using Different Algorithms",
       location: "Raipur, Chhattisgarh",
@@ -203,7 +220,7 @@ const data = {
       description:
         "Analyzing dataset having 32769 rows and 10 columns, discover patterns such as trends, correlations and trained 4 models using LogisticRegression, KNeighborsClassifier, Naive Bayes and RandomForestClassifier algorithms. Compared different models with different criterion",
       impact:
-        "Find out Random Forest Algorithm with criterion gini gives best accuracy and performs better with 95% accuracy",
+        ["Find out Random Forest Algorithm with criterion gini gives best accuracy and performs better with 95% accuracy",],
       technical_skills: [
         "Python with Pandas",
         "Numpy",
@@ -212,7 +229,46 @@ const data = {
         "Seaborn",
       ],
       soft_skills: ["Presentation skills", "Logical Thinking"],
+
+      github_link:"https://github.com/Rajesh0901-sudo/Amazon.com_Employee_Access_-Using_Different_Algorithm-"
     },
+    
+    {
+      name: "Data Analytics Project: Spotify track data Analysis",
+      location: "Raipur, Chhattisgarh",
+      duration: "July 2021 - Sep 2021",
+
+      description:"Analyzed Spotify track data having 5,86,671 entries and 20 columns. find patterns and correlations between features and plot them into different graphs. ",      
+      impact:
+        ["Find out Random Forest Algorithm with criterion gini gives best accuracy and performs better with 95% accuracy",],
+      technical_skills: [
+        "Python","Pandas", "NumPy", "Scikit learn", "Matplotlib", "Seaborn"
+      ],
+      soft_skills: ["Presentation skills", "Logical Thinking"],
+
+      github_link:"https://github.com/Rajesh0901-sudo/Soptify_track_data_Analysis"
+    },
+
+    {
+      
+      name: "Bank Account Management System (CLI - C++)",
+      location: "Raipur, Chhattisgarh",
+      duration: "July 2019 - Dec 2019",
+      description:" developed a comprehensive Bank Account Management System using C++ with a strong emphasis on Object-Oriented Programming (OOP) principles and inheritance. This system efficiently handles various banking operations, allowing users to create and manage multiple account types while ensuring secure and accurate transaction processing.",      
+      impact:
+        ["The system represented banking activities by offering a streamlined and secure platform for efficient account management and transaction processing.",],
+      technical_skills: [
+        "C++","OOPS", "Inheritance", "Code Block",
+      ],
+      soft_skills: [
+        "Time Management",
+        "Presentation skills",
+        "Communication Skills",
+      ],
+
+      github_link:"https://github.com/Rajesh0901-sudo/BankAccountManagementCPP"
+    },
+    
   ],
   skills: {
     programming: [
