@@ -10,6 +10,10 @@
 
     }
 
+    .home_section_connect_button,.home_section_resume_button{
+      background-image: linear-gradient(to right top, #3c6e71, #33666f, #2c5d6c, #285468, #284b63);
+    }
+
     .hero_header_diff{
       background-image: linear-gradient(to right top, #353535, #3c3e43, #404850, #40525d, #3e5e68, #3b616b, #37636d, #33666f, #2e5f6d, #2a596a, #285267, #284b63);                -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -17,7 +21,7 @@
 
     @media only screen and (min-width: 600px) {
         .hero_image{
-            width: 500px !important;
+            width: 450px !important;
             display: block;
             margin: auto;
             margin-top: -80px;

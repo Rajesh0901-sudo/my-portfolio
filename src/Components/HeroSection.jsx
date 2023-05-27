@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Button,CardMedia } from '@mui/material';
+import { Box, Typography, Button,CardMedia,Container,Grid, } from '@mui/material';
 import RajeshLogo from '../assets/images/RajeshLogoWithoutBackground.png';
 import './scss/HeroSection.scss';
 
@@ -84,6 +84,38 @@ const HeroSection = () => {
       <Typography variant="h5" component="p" sx={{ marginBottom: '32px',zIndex:'2' }}>
         creating <span className='hero_header_diff'>innovative solutions</span> and pushing the boundaries of technology.
       </Typography>
+
+      <Container maxWidth="lg">
+          <Grid container spacing={4} style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
+            <Grid item xs={6} sm={3} >
+              <Button
+                href="contact"
+                variant="contained"
+                size="large"
+                fullWidth
+                className='home_section_connect_button'
+              >
+                Lets Connect
+              </Button>
+            </Grid>
+            <Grid item xs={6} sm={3} >
+              <Button
+                href="pdf/Rajesh_Resume_updated_08_may.pdf"
+                target='_blank'
+                variant="contained"
+                size="large"
+                fullWidth
+
+                className='home_section_resume_button'
+              >
+                Download Resume
+              </Button>
+            </Grid>
+          </Grid>
+      </Container>
+
+
+
         <div className="container">
             <div className="chevron"></div>
             <div className="chevron"></div>

@@ -92,6 +92,7 @@ const NewFooter = ({footerEntered}) => {
                     <h2 className='section_heading'><MilitaryTechOutlinedIcon/> &nbsp; Freelance</h2>
                     <a target='_blank' href='#'><h4 className='footer_contents'><EngineeringOutlinedIcon /> &nbsp; Experience </h4></a>
                     <a target='_blank' href='#'><h4 className='footer_contents'> <IntegrationInstructionsOutlinedIcon />&nbsp; Projects</h4></a>
+                    <a target='_blank' href='pdf/Rajesh_Resume_updated_08_may.pdf'><h4 className='footer_contents'> <IntegrationInstructionsOutlinedIcon />&nbsp; Download Resume</h4></a>
                 </Box>
             </Grid>
           </Grow>
