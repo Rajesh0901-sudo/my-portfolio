@@ -13,6 +13,7 @@ const Contact = lazy(() => import('./Pages/Contact'));
 const Experience = lazy(() => import('./Pages/Experience'));
 const Skills = lazy(() => import('./Pages/Skills'));
 const Projects = lazy(() => import('./Pages/Projects'));
+const Feedback = lazy(() => import('./Pages/Feedback'));
 
 const NoMatch = lazy(() => import('./Components/NoMatch'));
 
@@ -40,6 +41,7 @@ const App = () => {
                   <Route path="/experience" element={<Experience />} />
                   <Route path="/skills" element={<Skills />} />
                   <Route path="/projects" element={<Projects />} />
+                  <Route path="/feedback" element={<Feedback />} />
 
                   <Route path="*" element={<NoMatch />} />
                </Routes>
