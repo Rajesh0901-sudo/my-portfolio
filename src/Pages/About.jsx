@@ -2,6 +2,7 @@ import {React,useState,useEffect} from 'react';
 import { Helmet } from 'react-helmet';
 import data from '../Components/data/aboutMeData';
 import myImage from '../assets/icons/IMG_20230219_200503-PhotoRoom-PhotoRoom-PhotoRoom (1).png'
+import myNewImage from '../assets/images/IMG_20231107_111419-min-PhotoRoom-min.png';
 
 import { Box, Container, Grid, Typography } from '@mui/material';
 
@@ -79,7 +80,7 @@ const AboutUsPage = () => {
                         <div className="bubble-six"></div>
                     </div>
                   </div>
-                  <img  className='my_image_about_section'  src={myImage}/>
+                  <img  className='my_image_about_section'  src={myNewImage}/>
                 </Box>
               </Grid>
 
