@@ -42,7 +42,36 @@ const Experience = () => {
             </h1> 
         </div>
             
-          
+        <Grid container item spacing={1} className="exp_section_div2">
+              <Grid  item xs={3} sm={1}  >           
+                <img style={{width:'80px'}} className='exp_logo_company' src='./images/logo/amdocsLogo.png'/>
+              </Grid>
+             
+              <Grid item xs={9} sm={9} >
+                <h2>{data.work_experience[2].position}</h2>
+                <span><b>{data.work_experience[2].company}</b></span> &nbsp; 
+              </Grid>
+
+              <Grid  item  sx={{ display: { xs: 'none', sm: 'flex' } }}  >           
+                <span>{data.work_experience[2].duration}</span>
+              </Grid>  
+
+              <Grid  item xs={12}>           
+                <span>{data.work_experience[2].responsibilities}</span>
+              </Grid>  
+
+              <Grid  item xs={12} className='skills_div'>           
+                <span><b>Technical Skill :</b> {data.work_experience[2].technical_skills.join(", ")}.</span>
+              </Grid>
+              
+              <Grid  item xs={12} className='skills_div'>           
+                <span><b>Soft Skill :</b> {data.work_experience[2].soft_skills.join(", ")}.</span>
+              </Grid>
+
+              <Grid  item xs={12} className='skills_div'>           
+                <span><b>Impact :</b> {data.work_experience[2].impact.join(", ")}.</span>
+              </Grid>
+          </Grid>
 
 
           <Grid container item spacing={1} className="exp_section_div2">

@@ -86,7 +86,7 @@ const HeroSection = () => {
       </Typography>
 
       <Container maxWidth="lg">
-          <Grid container spacing={4} style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
+          <Grid container spacing={1} style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
             <Grid item xs={6} sm={3} >
               <Button
                 href="contact"
@@ -95,12 +95,12 @@ const HeroSection = () => {
                 fullWidth
                 className='home_section_connect_button'
               >
-                Lets Connect
+                Let's Connect
               </Button>
             </Grid>
             <Grid item xs={6} sm={3} >
               <Button
-                href="pdf/Rajesh_Resume_updated_08_may.pdf"
+                href="pdf/Rajesh_Resume_updated_2nd_December.pdf"
                 target='_blank'
                 variant="contained"
                 size="large"
@@ -108,7 +108,7 @@ const HeroSection = () => {
 
                 className='home_section_resume_button'
               >
-                Download Resume
+                Get Resume
               </Button>
             </Grid>
           </Grid>

@@ -9,7 +9,7 @@ const data = {
     institute: "National Institute of Technology (NIT) Raipur",
     location: "Raipur, Chhattisgarh, India",
     degree: "Master of Computer Application",
-    sgpa: "9.08",
+    sgpa: "9.75",
     completion: "2020 - 2023",
     courses: [
       "Data Structure and Algorithms",
@@ -58,7 +58,7 @@ const data = {
     {
       company: "ATPLC Technology",
       location: "Remote, India",
-      position: "Software Engineering Intern (Project Lead)",
+      position: "Software Engineering Intern",
       duration: "Sept 2022 - Nov 2022",
       responsibilities: [
         "Designed and Developed UI and front-end of the website, working with HTML, CSS, Bootstrap, JavaScript and JQuery",
@@ -84,6 +84,33 @@ const data = {
       impact:[
         "Used my previous full stack web programming knowledge to successfully accomplish the job.",
         "Project was completed ahead of schedule and with satisfactory outcomes.."
+      ]
+    },
+    {
+      company: "Amdocs",
+      location: "Pune, India",
+      position: "Software Developement Engineere in test ",
+      duration: "Aug 2023 - Current",
+      responsibilities: [
+        "As a seasoned Software Test Engineer, I've not only mastered meticulous testing but also actively contributed to the software development life cycle.",
+        "Proficient in Java, C++, and Python, I've collaborated seamlessly with developers, ensuring code robustness and functionality.",
+        "My commitment to quality aligns seamlessly with the demands of a Software Development Engineering role, making me ready to transition with a proven ability to balance precision testing and innovative software solutions.",
+      ],
+      technical_skills: [
+        "Java",
+        "Unix",
+        "GitLab",
+        "SQL",
+        "Jira",
+      ],
+      soft_skills: [
+        "Teamwork",
+        "Communication",
+        "Presentation skills",
+      ],
+      impact:[
+        "Communicated with defferent teams and developers to understand and the functionalities and to eliminate any possible bugs",
+        "Learnt to work in large teams and large company in which communication is the key to achieve almost anything"
       ]
     },
   ],
@@ -171,6 +198,7 @@ const data = {
 
       ]
     },
+
   ],
   projects: [
     {
