@@ -96,8 +96,20 @@
     }
 
 }
+.closeIcon{
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    cursor: pointer;
+
+    &:hover{
+        scale: 1.05;
+        transition: 0.2s ease-in-out;
+    }
+}
 .prjoectViewContainer{
     padding:10px;
+    position: relative;
     height:100%;
     width:100%;
     overflow:scroll;

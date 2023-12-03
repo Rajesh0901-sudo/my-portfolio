@@ -8,6 +8,7 @@ import NewFooter from "../Components/NewFooter";
 import './scss/Experience.scss';
 import './scss/Projects.scss';
 
+import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import MilitaryTechOutlinedIcon from '@mui/icons-material/MilitaryTechOutlined';
 import LinkOutlinedIcon from '@mui/icons-material/LinkOutlined';
 import DocumentScannerOutlinedIcon from '@mui/icons-material/DocumentScannerOutlined';
@@ -49,7 +50,7 @@ const ProjectsTemplate = ({handleOpen,setData}) => {
                   <img className='exp_logo_company' src='./images/compuse/appeq.png'/>
                 </Grid> */}
         
-                <Grid onClick={()=>{handleOpen();setData(JSON.parse(JSON.stringify(d)))}} className='projectTitleHeading' item xs={9} sm={9} >
+                <Grid onClick={()=>{handleOpen();setData(JSON.parse(JSON.stringify(d)))}} className='projectTitleHeading' item xs={12} sm={9} >
                   <h2>{d.name}</h2>
         
                 </Grid>
@@ -97,7 +98,7 @@ const MainProjectView = ({projectDataToShow}) => {
   return(
     <>
 
-      <h1 style={{textAlign:'center',marginBottom:'50px'}}>{projectDataToShow?.name}</h1>
+      <h2 style={{textAlign:'center',marginBottom:'50px'}}>{projectDataToShow?.name}</h2>
       <Grid container spacing={3} className="mainModalToShowGrid">
 
         <Grid item xs={12} sm={6} >
@@ -216,9 +217,9 @@ const Projects = () => {
         }}
       >
         <Fade in={open}>
-          <Box sx={style}>
+          <Box sx={style}>              
+            <CloseOutlinedIcon onClick={handleClose} className='closeIcon'/>
             <Box className='prjoectViewContainer'>
-
               <MainProjectView projectDataToShow={projectModalData}/>
               <Grid container spacing={1} style={{display:'flex',alignItems:'center',justifyContent:'center',marginTop:'25px'}}>
                 <Grid item xs={11} sm={6} >
