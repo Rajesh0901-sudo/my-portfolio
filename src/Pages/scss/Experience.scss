@@ -54,6 +54,67 @@
     }
 }
 
+.projectTitleHeading{
+    cursor: pointer;
+
+    &:hover{
+        scale: 1.01;
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+        transition: 0.2s ease-in-out;
+    }
+}
+
+
+.showProjectMainImage{
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
+.mainModalToShowGrid{
+    .description_div{
+        text-align: justify;
+        display: block;
+    }
+    .skills_div{
+        margin-bottom: 20px;
+    }
+
+    .otherImageUrlDiv{
+        margin-top: 50px;
+
+        img{
+            max-height: 20vh;
+            height: 100%;
+            width: 100%;
+            object-fit:contain;
+            padding: 5px; 
+            border-radius: 5px;
+            border: 0.1px solid rgb(166, 166, 166);
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        }
+    }
+
+}
+.prjoectViewContainer{
+    padding:10px;
+    height:100%;
+    width:100%;
+    overflow:scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+.project_model_section_connect_button{
+    background-image: linear-gradient(to right top, #3c6e71, #33666f, #2c5d6c, #285468, #284b63);
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
 
 @media only screen and (max-width: 600px) {
     .exp_section_wrapper{
