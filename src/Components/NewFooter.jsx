@@ -69,7 +69,7 @@ const NewFooter = ({footerEntered}) => {
                     <h2 className='section_heading'> <BookmarkOutlinedIcon/>&nbsp; Follow me</h2>
                     <a target='_blank' href='https://github.com/Rajesh0901-sudo/'><h4  className='footer_contents'><img src='./images/compuse/iconmonstr_github_1.svg'/> &nbsp; GitHub</h4></a>
                     <a target='_blank' href='https://www.linkedin.com/in/rajesh-s-sahu/'><h4  className='footer_contents'><img src='./images/compuse/iconmonstr-linkedin-3.svg'/> &nbsp;LinkedIn</h4></a>
-                    <a target='_blank' href='mailto:rajesh@techgeekdeveloper.com'><h4  className='footer_contents'><img src='./images/compuse/icons8-gmail-250.png'/> &nbsp;Email</h4></a>
+                    <a target='_blank' href='mailto:rajesh@rajeshs.co.in'><h4  className='footer_contents'><img src='./images/compuse/icons8-gmail-250.png'/> &nbsp;Email</h4></a>
                 </Box>
             </Grid>
           </Grow>

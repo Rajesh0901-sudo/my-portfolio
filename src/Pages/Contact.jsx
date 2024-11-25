@@ -7,7 +7,6 @@ import NewFooter from "../Components/NewFooter";
 
 
 
-
 const Contact = () => {
   const [isSubmitted, setSubmitted] = useState(false);
 

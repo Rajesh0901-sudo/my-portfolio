@@ -125,7 +125,7 @@ const data = {
         logoImageUrl:'./images/compuse/fliqcard_logo.png',
         location: "Oman, Middle East",
         position: "Full Stack Web Developer",
-        duration: "06 - Months",
+        duration: "Jan-2023 To Jul-2023",
         responsibilities: [
           "As a full-stack developer. Setting up and configuring the EC2 instance, transferring website files, databases, and dependencies, and handling technical issues were all responsibilities.",
           "On the new hosting platform, the emphasis was on retaining website functionality, security, and performance. Full stack developer expertise was critical in ensuring a successful migration.",
@@ -156,7 +156,7 @@ const data = {
         logoImageUrl:'./images/compuse/upwork_logo.png',
         location: "Remote, India",
         position: "Front-End Developer",
-        duration: "02 - Weeks",
+        duration: "Feb-2023",
         responsibilities: [
           "Created a single page for demurrage and shipment claims. Along with the calculation, I also built the user interface like Excel. Calculation performed like Excel, then report and invoice in PDF. All data was managed at the UI level without api integration. The invoice and report are both created using the same template. Logic for time counting based on date/time, auto sorting in rows as in excel, and auto splitting rows based on date/time (inserted in between any row). Highlighted Saturday/Sunday weekend in a row. 20 hours total allotted"
         ],
@@ -182,7 +182,7 @@ const data = {
         logoImageUrl:'./images/compuse/Planora_logo.png',
         location: "Remote, India",
         position: "Full Stack Web Developer",
-        duration: "06 - Months",
+        duration: "Jan-2022 to Jun-2022",
         responsibilities: [
           "Designed, developed and deployed a website with Email Authentication using OTP and User Authentication using Email id with OTP-based password recovery mechanism. User Login and Registration Admin Panel with default product insertion and user removal functionality."
         ],
