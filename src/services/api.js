@@ -1,14 +1,13 @@
 import axios from 'axios';
 
-const url = 'https://rajeshs.co.in/backend';
+//Local
+//const url = 'http://localhost:8080/';
+//Production
+const url = 'https://rajeshs.co.in';
 
 export const addMessage = async (data) => {
   try {
-    const response = await axios.post(`${url}/api/messages`, data, {
-        headers: {
-            'Content-Type': 'application/json',
-        },
-    });
+    const response = await axios.post(`${url}/api/messages`, data);
 
     return response.data;
   } catch (error) {

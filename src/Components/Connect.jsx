@@ -28,6 +28,8 @@ const Connect = () => {
     console.log(data);
     const response = await addMessage(data);
 
+    console.log("response is",response);
+
     if(response){
       console.log('Message sent successfully');
       setSubmitted((isSubmitted)=> true);

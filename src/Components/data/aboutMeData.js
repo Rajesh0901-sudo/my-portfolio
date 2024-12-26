@@ -234,14 +234,14 @@ const data = {
           "Communication Skills",
         ],
         github_link:"https://github.com/Rajesh0901-sudo/fliqcard-chat-backend",
-        mainImageUrl:'./images/projectImages/iloveimg-compressed/Screenshot 2023-08-14 at 6.17.34 PM.png',
+        mainImageUrl:require('../../assets/images/projectimages/iloveimgcompressed/hero_image.png'),
         otherImageUrls:[
-          './images/projectImages/iloveimg-compressed/Screenshot 2023-08-14 at 5.40.45 PM.png',
-          './images/projectImages/iloveimg-compressed 4/Screenshot_2023-08-28-13-40-48-281_com.fliqcard.app.jpg',
-          './images/projectImages/iloveimg-compressed 4/Screenshot_2023-08-28-13-40-59-218_com.fliqcard.app.jpg',
-          './images/projectImages/iloveimg-compressed 4/Screenshot_2023-09-01-17-34-54-052_com.fliqcard.app.jpg',
-          './images/projectImages/iloveimg-compressed 4/Screenshot_2023-09-01-22-06-01-136_com.fliqcard.app.jpg',
-          './images/projectImages/iloveimg-compressed 4/Screenshot_2023-09-01-22-06-24-743_com.fliqcard.app.jpg'
+          require('../../assets/images/projectimages/iloveimgcompressed/Screenshot 2023-08-14 at 5.40.45 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed4/Screenshot_2023-08-28-13-40-48-281_com.fliqcard.app.jpg'),
+          require('../../assets/images/projectimages/iloveimgcompressed4/Screenshot_2023-08-28-13-40-59-218_com.fliqcard.app.jpg'),
+          require('../../assets/images/projectimages/iloveimgcompressed4/Screenshot_2023-09-01-17-34-54-052_com.fliqcard.app.jpg'),
+          require('../../assets/images/projectimages/iloveimgcompressed4/Screenshot_2023-09-01-22-06-01-136_com.fliqcard.app.jpg'),
+          require('../../assets/images/projectimages/iloveimgcompressed4/Screenshot_2023-09-01-22-06-24-743_com.fliqcard.app.jpg'),
         ]
   
       },
@@ -265,13 +265,13 @@ const data = {
           "Communication Skills",
         ],
         github_link:"https://github.com/Rajesh0901-sudo/client-react",
-        mainImageUrl:'./images/projectImages/iloveimg-compressed 2/Screenshot 2023-01-06 at 10.36.24 AM.png',
+        mainImageUrl:require('../../assets/images/projectimages/iloveimgcompressed2/Screenshot 2023-01-06 at 10.36.24 AM.png'),
         otherImageUrls:[
-          './images/projectImages/iloveimg-compressed 2/screencapture-localhost-3000-2023-01-06-10_38_10.png',
-          './images/projectImages/iloveimg-compressed 2/Screenshot 2023-01-04 at 10.18.31 PM.png',
-          './images/projectImages/iloveimg-compressed 2/Screenshot 2023-01-06 at 10.36.37 AM.png',
-          './images/projectImages/iloveimg-compressed 2/Screenshot 2023-01-06 at 10.37.44 AM.png',
-          './images/projectImages/iloveimg-compressed 2/Screenshot 2023-01-06 at 10.37.47 AM.png'
+          require('../../assets/images/projectimages/iloveimgcompressed2/screencapture-localhost-3000-2023-01-06-10_38_10.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed2/Screenshot 2023-01-04 at 10.18.31 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed2/Screenshot 2023-01-06 at 10.36.37 AM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed2/Screenshot 2023-01-06 at 10.37.44 AM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed2/Screenshot 2023-01-06 at 10.37.47 AM.png')
         ]
   
       },
@@ -299,15 +299,15 @@ const data = {
           "Communication Skills",
         ],
         github_link:"https://github.com/Rajesh0901-sudo/Full-stack-web-development-Planora-Planogram_Maker",
-        mainImageUrl:'./images/projectImages/iloveimg-compressed 2/2022-05-22 (1).png',
+        mainImageUrl:require('../../assets/images/projectimages/iloveimgcompressed2/2022-05-22 (1).png'),
         otherImageUrls:[
-          './images/projectImages/iloveimg-compressed 2/2022-02-05.png',
-          './images/projectImages/iloveimg-compressed 2/2022-05-21 (7).png',
-          './images/projectImages/iloveimg-compressed 2/2022-05-22.png',
-          './images/projectImages/iloveimg-compressed 2/2022-05-21 (9).png',
-          './images/projectImages/iloveimg-compressed 2/2022-05-21 (5).png',
-          './images/projectImages/iloveimg-compressed 2/2022-05-21 (3).png',
-          './images/projectImages/iloveimg-compressed 2/2022-05-21 (4).png'
+          require('../../assets/images/projectimages/iloveimgcompressed2/2022-02-05.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed2/2022-05-21 (7).png'),
+          require('../../assets/images/projectimages/iloveimgcompressed2/2022-05-22.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed2/2022-05-21 (9).png'),
+          require('../../assets/images/projectimages/iloveimgcompressed2/2022-05-21 (5).png'),
+          require('../../assets/images/projectimages/iloveimgcompressed2/2022-05-21 (3).png'),
+          require('../../assets/images/projectimages/iloveimgcompressed2/2022-05-21 (4).png')
         ]
   
       },
@@ -326,20 +326,20 @@ const data = {
         soft_skills: ["Presentation skills", "Logical Thinking"],
   
         github_link:"https://github.com/Rajesh0901-sudo/Real-Estate-Land-Transaction-System-Using-Blockchain-Technology",
-        mainImageUrl:'./images/projectImages/iloveimg-compressed 6/Screenshot 2023-12-03 at 10.47.08 PM.png',
+        mainImageUrl:require('../../assets/images/projectimages/iloveimgcompressed6/Screenshot 2023-12-03 at 10.47.08 PM.png'),
         otherImageUrls:[
-          './images/projectImages/iloveimg-compressed 6/Screenshot 2023-12-03 at 10.33.01 PM.png',
-          './images/projectImages/iloveimg-compressed 6/Screenshot 2023-12-03 at 10.33.13 PM.png',
-          './images/projectImages/iloveimg-compressed 6/Screenshot 2023-12-03 at 10.33.20 PM.png',
-          './images/projectImages/iloveimg-compressed 6/Screenshot 2023-12-03 at 10.33.27 PM.png',
-          './images/projectImages/iloveimg-compressed 6/Screenshot 2023-12-03 at 10.34.13 PM.png',
-          './images/projectImages/iloveimg-compressed 6/Screenshot 2023-12-03 at 10.46.24 PM.png',
-          './images/projectImages/iloveimg-compressed 6/Screenshot 2023-12-03 at 10.47.01 PM.png',
-          './images/projectImages/iloveimg-compressed 6/Screenshot 2023-12-03 at 10.47.14 PM.png',
-          './images/projectImages/iloveimg-compressed 6/Screenshot 2023-12-03 at 10.47.21 PM.png',
-          './images/projectImages/iloveimg-compressed 6/Screenshot 2023-12-03 at 10.47.28 PM.png',
-          './images/projectImages/iloveimg-compressed 6/Screenshot 2023-12-03 at 10.47.39 PM.png',
-          './images/projectImages/iloveimg-compressed 6/Screenshot 2023-12-03 at 10.47.47 PM.png',
+          require('../../assets/images/projectimages/iloveimgcompressed6/Screenshot 2023-12-03 at 10.33.01 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed6/Screenshot 2023-12-03 at 10.33.13 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed6/Screenshot 2023-12-03 at 10.33.20 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed6/Screenshot 2023-12-03 at 10.33.27 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed6/Screenshot 2023-12-03 at 10.34.13 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed6/Screenshot 2023-12-03 at 10.46.24 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed6/Screenshot 2023-12-03 at 10.47.01 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed6/Screenshot 2023-12-03 at 10.47.14 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed6/Screenshot 2023-12-03 at 10.47.21 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed6/Screenshot 2023-12-03 at 10.47.28 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed6/Screenshot 2023-12-03 at 10.47.39 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed6/Screenshot 2023-12-03 at 10.47.47 PM.png'),
         ]
       },
     ],
@@ -363,12 +363,12 @@ const data = {
         soft_skills: ["Presentation skills", "Logical Thinking"],
   
         github_link:"https://github.com/Rajesh0901-sudo/Amazon.com_Employee_Access_-Using_Different_Algorithm-",
-        mainImageUrl:'./images/projectImages/iloveimg-compressed 3/Screenshot 2023-12-03 at 8.20.13 PM.png',
+        mainImageUrl:require('../../assets/images/projectimages/iloveimgcompressed3/Screenshot 2023-12-03 at 8.20.13 PM.png'),
         otherImageUrls:[
-          './images/projectImages/iloveimg-compressed 3/Screenshot 2023-12-03 at 8.20.18 PM.png',
-          './images/projectImages/iloveimg-compressed 3/Screenshot 2023-12-03 at 8.20.29 PM.png',
-          './images/projectImages/iloveimg-compressed 3/Screenshot 2023-12-03 at 8.20.38 PM.png',
-          './images/projectImages/iloveimg-compressed 3/Screenshot 2023-12-03 at 8.20.48 PM.png',
+          require('../../assets/images/projectimages/iloveimgcompressed3/Screenshot 2023-12-03 at 8.20.18 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed3/Screenshot 2023-12-03 at 8.20.29 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed3/Screenshot 2023-12-03 at 8.20.38 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed3/Screenshot 2023-12-03 at 8.20.48 PM.png'),
         ]
       },
       {
@@ -389,12 +389,12 @@ const data = {
         ],
         soft_skills: ["Presentation skills", "Logical Thinking"],
         github_link:"https://github.com/Rajesh0901-sudo/Data-Science_and_Machine-Learning/blob/main/Lesson%209%20-1/Assignment%2001%202/NLP_Spam%20Detection.ipynb",
-        mainImageUrl:'./images/projectImages/iloveimg-compressed 5/Screenshot 2023-12-03 at 10.09.06 PM.png',
+        mainImageUrl:require('../../assets/images/projectimages/iloveimgcompressed5/Screenshot 2023-12-03 at 10.09.06 PM.png'),
         otherImageUrls:[
-          './images/projectImages/iloveimg-compressed 5/Screenshot 2023-12-03 at 10.09.17 PM.png',
-          './images/projectImages/iloveimg-compressed 5/Screenshot 2023-12-03 at 10.09.22 PM.png',
-          './images/projectImages/iloveimg-compressed 5/Screenshot 2023-12-03 at 10.09.29 PM.png',
-          './images/projectImages/iloveimg-compressed 5/Screenshot 2023-12-03 at 10.09.36 PM.png',
+          require('../../assets/images/projectimages/iloveimgcompressed5/Screenshot 2023-12-03 at 10.09.17 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed5/Screenshot 2023-12-03 at 10.09.22 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed5/Screenshot 2023-12-03 at 10.09.29 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed5/Screenshot 2023-12-03 at 10.09.36 PM.png'),
         ]
        
       },
@@ -415,13 +415,13 @@ const data = {
         soft_skills: ["Presentation skills", "Logical Thinking"],
   
         github_link:"https://github.com/Rajesh0901-sudo/Soptify_track_data_Analysis",
-        mainImageUrl:'./images/projectImages/iloveimg-compressed 3/Screenshot 2023-12-03 at 8.22.49 PM.png',
+        mainImageUrl:require('../../assets/images/projectimages/iloveimgcompressed3/Screenshot 2023-12-03 at 8.22.49 PM.png'),
         otherImageUrls:[
-          './images/projectImages/iloveimg-compressed 3/Screenshot 2023-12-03 at 8.23.04 PM.png',
-          './images/projectImages/iloveimg-compressed 3/Screenshot 2023-12-03 at 8.23.11 PM.png',
-          './images/projectImages/iloveimg-compressed 3/Screenshot 2023-12-03 at 8.23.15 PM.png',
-          './images/projectImages/iloveimg-compressed 3/Screenshot 2023-12-03 at 8.23.22 PM.png',
-          './images/projectImages/iloveimg-compressed 3/Screenshot 2023-12-03 at 8.23.25 PM.png',
+          require('../../assets/images/projectimages/iloveimgcompressed3/Screenshot 2023-12-03 at 8.23.04 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed3/Screenshot 2023-12-03 at 8.23.11 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed3/Screenshot 2023-12-03 at 8.23.15 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed3/Screenshot 2023-12-03 at 8.23.22 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed3/Screenshot 2023-12-03 at 8.23.25 PM.png'),
         ]
       },
     ],
@@ -444,12 +444,12 @@ const data = {
         ],
   
         github_link:"https://github.com/Rajesh0901-sudo/BankAccountManagementCPP",
-        mainImageUrl:'./images/projectImages/iloveimg-compressed 3/Screenshot 2023-12-03 at 8.16.25 PM.png',
+        mainImageUrl:require('../../assets/images/projectimages/iloveimgcompressed3/Screenshot 2023-12-03 at 8.16.25 PM.png'),
         otherImageUrls:[
-          './images/projectImages/iloveimg-compressed 3/Screenshot 2023-12-03 at 8.17.47 PM.png',
-          './images/projectImages/iloveimg-compressed 3/Screenshot 2023-12-03 at 8.17.52 PM.png',
-          './images/projectImages/iloveimg-compressed 3/Screenshot 2023-12-03 at 8.18.08 PM.png',
-          './images/projectImages/iloveimg-compressed 3/Screenshot 2023-12-03 at 8.18.46 PM.png',
+          require('../../assets/images/projectimages/iloveimgcompressed3/Screenshot 2023-12-03 at 8.17.47 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed3/Screenshot 2023-12-03 at 8.17.52 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed3/Screenshot 2023-12-03 at 8.18.08 PM.png'),
+          require('../../assets/images/projectimages/iloveimgcompressed3/Screenshot 2023-12-03 at 8.18.46 PM.png'),
         ]
       },
   
